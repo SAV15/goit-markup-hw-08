@@ -1,0 +1,15 @@
+.section {
+	padding: 60px 0;
+	margin: 0 auto;
+
+	&--what-we-do {
+		text-align: center;
+		padding-top: 0;
+		display: none;
+	}
+
+	&__our-team {
+		text-align: center;
+		background-color: $light-grey;
+	}
+}

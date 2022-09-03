@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="uk">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Портфоліо</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+			integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="./css/main.min.css" />
+	</head>
+
+	<body>
+		<header class="header-page">
+			<div class="container container--header">
+				<a class="container__logo container__logo--header-logo" href="./index.html">
+					<span class="container--blue-text">Web</span>Studio
+				</a>
+				<button type="button" class="pages__button" data-pages__button>
+					<svg width="40" height="40" aria-label="Меню сайта">
+						<use class="pages__icon-menu" href="./images/svg/icons/symbol-defs.svg#menu"></use>
+						<use class="pages__icon-close" href="./images/svg/icons/symbol-defs.svg#close"></use>
+					</svg>
+				</button>
+				<div class="header-page__menu" data-header-page__menu>
+					<nav class="nav">
+						<ul class="pages">
+							<li><a class="pages__header-link" href="./index.html">Студія</a></li>
+							<li><a class="pages__header-link pages__header-link--current" href="./portfolio.html">Портфоліо</a></li>
+							<li><a class="pages__header-link">Контакти</a></li>
+						</ul>
+					</nav>
+					<ul class="company-contacts">
+						<li>
+							<a href="mailto:info@devstudio.com"
+								class="company-contacts__contact company-contacts__contact--mail">
+								<svg class="company-contacts__icon" width="16" height="12">
+									<use href="./images/svg/icons/symbol-defs.svg#envelope"></use>
+								</svg>
+								info@devstudio.com
+							</a>
+						</li>
+						<li>
+							<a href="tel:+380961111111" class="company-contacts__contact company-contacts__contact--tel">
+								<svg class="company-contacts__icon" width="10" height="16">
+									<use href="./images/svg/icons/symbol-defs.svg#phone"></use>
+								</svg>
+								+38 096 111 11 11
+							</a>
+						</li>
+						<ul>
+							<li class="company-contacts__social"></li>
+							<li class="company-contacts__social"></li>
+							<li class="company-contacts__social"></li>
+							<li class="company-contacts__social"></li>
+						</ul>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<main>
+			<section class="section">
+				<div class="container">
+					<ul class="filters">
+						<li><button class="filters__button">Усе</button></li>
+						<li><button class="filters__button">Веб-сайти</button></li>
+						<li><button class="filters__button">Додатки</button></li>
+						<li><button class="filters__button">Дизайн</button></li>
+						<li><button class="filters__button">Маркетинг</button></li>
+					</ul>
+					<ul class="projects">
+						<li class="project">
+							<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" class="project__link">
+								<div class="project__image">
+									<img src="./images/notebook-z-resume.jpg" alt="ноутбук з резюме" />
+									<div class="project__overlay">
+										<p>
+											Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, sapiente ipsum architecto
+											iusto repudiandae nemo cumque itaque cupiditate sunt impedit libero sed optio quia iure ut
+											aspernatur dolores modi dolor quasi aperiam, ad ullam.
+										</p>
+									</div>
+								</div>
+								<div class="project__title">
+									<h3 class="project__name">Технокряк</h3>
+									<p class="project__type">Веб-сайт</p>
+								</div>
+							</a>
+						</li>
+						<li class="project">
+							<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" class="project__link">
+								<div class="project__image">
+									<img src="./images/dva-basketbolisty.jpg" class="project__image" alt="Два баскетболісти" />
+									<div class="project__overlay">
+										<p>
+											Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, sapiente ipsum architecto
+											iusto repudiandae nemo cumque itaque cupiditate sunt impedit libero sed optio quia iure ut
+											aspernatur dolores modi dolor quasi aperiam, ad ullam.
+										</p>
+									</div>
+								</div>
+								<div class="project__title">
+									<h3 class="project__name">
+										Постер
+										<span lang="en">Orlean vs Golden Star</span>
+									</h3>
+									<p class="project__type">Дизайн</p>
+								</div>
+							</a>
+						</li>
+						<li class="project">
+							<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" class="project__link">
+								<div class="project__image">
+									<img
+										src="./images/seafood-restaurant-logo.jpg"
+										class="project__image"
+										alt="Логотип Seafood Restaurant"
+									/>
+									<div class="project__overlay">
+										<p>
+											Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, sapiente ipsum architecto
+											iusto repudiandae nemo cumque itaque cupiditate sunt impedit libero sed optio quia iure ut
+											aspernatur dolores modi dolor quasi aperiam, ad ullam.
+										</p>
+									</div>
+								</div>
+								<div class="project__title">
+									<h3 class="project__name">
+										Ресторан
+										<span lang="en">Seafood</span>
+									</h3>
+									<p class="project__type">Додаток</p>
+								</div>
+							</a>
+						</li>
+						<li class="project">
+							<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" class="project__link">
+								<div class="project__image">
+									<img src="./images/headphones.jpg" class="project__image" alt="Навушники" />
+									<div class="project__overlay">
+										<p>
+											Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, sapiente ipsum architecto
+											iusto repudiandae nemo cumque itaque cupiditate sunt impedit libero sed optio quia iure ut
+											aspernatur dolores modi dolor quasi aperiam, ad ullam.
+										</p>
+									</div>
+								</div>
+								<div class="project__title">
+									<h3 class="project__name">
+										Проект
+										<span lang="en">Prime</span>
+									</h3>
+									<p class="project__type">Маркетинг</p>
+								</div>
+							</a>
+						</li>
+						<li class="project">
+							<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" class="project__link">
+								<div class="project__image">
+									<img src="./images/two-boxes.jpg" class="project__image" alt="Дві коробочки" />
+									<div class="project__overlay">
+										<p>
+											Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, sapiente ipsum architecto
+											iusto repudiandae nemo cumque itaque cupiditate sunt impedit libero sed optio quia iure ut
+											aspernatur dolores modi dolor quasi aperiam, ad ullam.
+										</p>
+									</div>
+								</div>
+								<div class="project__title">
+									<h3 class="project__name">
+										Проект
+										<span class="en">Boxes</span>
+									</h3>
+									<p class="project__type">Додаток</p>
+								</div>
+							</a>
+						</li>
+						<li class="project">
+							<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" class="project__link">
+								<div class="project__image">
+									<img src="./images/monitor-kompyutera.jpg" class="project__image" alt="Монітор компьютера" />
+									<div class="project__overlay">
+										<p>
+											Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, sapiente ipsum architecto
+											iusto repudiandae nemo cumque itaque cupiditate sunt impedit libero sed optio quia iure ut
+											aspernatur dolores modi dolor quasi aperiam, ad ullam.
+										</p>
+									</div>
+								</div>
+								<div class="project__title">
+									<h3 class="project__name" lang="en">Inspiration has no Borders</h3>
+									<p class="project__type">Веб-сайт</p>
+								</div>
+							</a>
+						</li>
+						<li class="project">
+							<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" class="project__link">
+								<div class="project__image">
+									<img src="./images/rozvorot-knygy.jpg" class="project__image" alt="Розворот книги" />
+									<div class="project__overlay">
+										<p>
+											Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, sapiente ipsum architecto
+											iusto repudiandae nemo cumque itaque cupiditate sunt impedit libero sed optio quia iure ut
+											aspernatur dolores modi dolor quasi aperiam, ad ullam.
+										</p>
+									</div>
+								</div>
+								<div class="project__title">
+									<h3 class="project__name">
+										Видання
+										<span lang="en">Limited Edition</span>
+									</h3>
+									<p class="project__type">Дизайн</p>
+								</div>
+							</a>
+						</li>
+						<li class="project">
+							<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" class="project__link">
+								<div class="project__image">
+									<img src="./images/clothes-laber.jpg" class="project__image" alt="Ярлик з одягу" />
+									<div class="project__overlay">
+										<p>
+											Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, sapiente ipsum architecto
+											iusto repudiandae nemo cumque itaque cupiditate sunt impedit libero sed optio quia iure ut
+											aspernatur dolores modi dolor quasi aperiam, ad ullam.
+										</p>
+									</div>
+								</div>
+								<div class="project__title">
+									<h3 class="project__name">
+										Проект
+										<span lang="en">LAB</span>
+									</h3>
+									<p class="project__type">Маркетинг</p>
+								</div>
+							</a>
+						</li>
+						<li class="project">
+							<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" class="project__link">
+								<div class="project__image">
+									<img src="./images/work-on-the-computer.jpg" class="project__image" alt="Людина працює на ноутбуці" />
+									<div class="project__overlay">
+										<p>
+											Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, sapiente ipsum architecto
+											iusto repudiandae nemo cumque itaque cupiditate sunt impedit libero sed optio quia iure ut
+											aspernatur dolores modi dolor quasi aperiam, ad ullam.
+										</p>
+									</div>
+								</div>
+								<div class="project__title">
+									<h3 class="project__name" lang="en">Growing Business</h3>
+									<p class="project__type">Додаток</p>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="container container--footer">
+				<div>
+					<a class="container__logo container__logo--footer-logo">
+						<span class="container--blue-text">Web</span> Studio
+					</a>
+					<address class="footer__adress">
+						<p class="container__adress">м. Київ, пр-т Лесі Українки, 26</p>
+						<ul class="contacts-footer">
+							<li>
+								<a href="mailto:info@example.com" class="contacts-footer__link">info@example.com</a>
+							</li>
+							<li>
+								<a href="tel:+380991111111" class="contacts-footer__link">+38 099 111 11 11</a>
+							</li>
+						</ul>
+					</address>
+				</div>
+				<div class="join">
+					<h3 class="footer__title">Приєднуйтесь</h3>
+					<ul class="participents-contacts">
+						<li>
+							<a class="join__link">
+								<svg class="join__icon">
+									<use href="./images/svg/icons/symbol-defs.svg#instagram"></use>
+								</svg>
+							</a>
+						</li>
+						<li>
+							<a class="join__link">
+								<svg class="join__icon">
+									<use href="./images/svg/icons/symbol-defs.svg#twitter"></use>
+								</svg>
+							</a>
+						</li>
+						<li>
+							<a class="join__link">
+								<svg class="join__icon">
+									<use href="./images/svg/icons/symbol-defs.svg#facebook"></use>
+								</svg>
+							</a>
+						</li>
+						<li>
+							<a class="join__link">
+								<svg class="join__icon">
+									<use href="./images/svg/icons/symbol-defs.svg#linkedin"></use>
+								</svg>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="subscription">
+					<h3 class="footer__title">Підпишітся на розсилку</h3>
+					<div class="subscription__option">
+						<input type="email" name="email" id="subscription__email" class="subscription__email"
+							placeholder="E-mail" />
+						<button class="subscription__button" type="submit">
+							Підписатися
+							<svg width="24" height="24">
+								<use href="./images/svg/icons/symbol-defs.svg#paper-plane"></use>
+							</svg>
+						</button>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script src="./js/menu.js"></script>
+	</body>
+</html>

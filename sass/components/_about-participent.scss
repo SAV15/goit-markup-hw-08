@@ -1,0 +1,20 @@
+.about-participant {
+    padding: 30px 122px 24px;
+
+&__name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.185;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 10px;
+}
+
+&__job {
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: $grey-color;
+    margin-bottom: 16px;
+}
+}

@@ -1,0 +1,36 @@
+.join {
+
+    text-align: center;
+    margin-bottom: 60px;
+
+&__link {
+    width: 44px;
+    height: 44px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: $transparent1-white;
+    color: $white;
+
+    transition-property: background-color, color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+&__link:hover,
+&__link:focus {
+    color: $white;
+    background-color: $blue-color;
+    cursor: pointer;
+}
+
+&__icon {
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    display: inline-block;
+    fill: currentColor;
+}
+}

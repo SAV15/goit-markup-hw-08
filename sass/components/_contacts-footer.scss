@@ -1,0 +1,19 @@
+.contacts-footer {
+    text-align: center;
+
+& li:not(:last-child) {
+    margin-bottom: 8px;
+}
+&__link {
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: $transparent6-white;
+    font-style: normal;
+}
+}

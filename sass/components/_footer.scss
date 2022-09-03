@@ -1,0 +1,19 @@
+.footer {
+    background: $dark-background-color;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    &__title {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: $white;
+        margin-bottom: 20px;
+    }
+
+    &__adress{
+        margin-bottom: 60px;
+    }
+}

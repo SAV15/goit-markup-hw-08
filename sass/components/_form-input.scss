@@ -1,0 +1,67 @@
+.form-input {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+
+&:nth-last-child(1) {
+    margin-bottom: 0;
+}
+
+&__label {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
+    color: $grey-color;
+    margin-bottom: 4px;
+}
+
+&__input {
+    padding: 12px 12px 12px 43px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+
+    transition-property: border;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+&__input:focus {
+    border: 1px solid rgba(33, 150, 243, 1);
+    outline: none;
+}
+
+&__input:focus~.modal-icon {
+    color: $blue-color;
+}
+
+& textarea:focus {
+    border: 1px solid rgba(33, 150, 243, 1);
+    outline: none;
+}
+
+& textarea:focus~.modal-icon {
+    color: $blue-color;
+}
+
+& textarea::placeholder {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
+    color: rgba(117, 117, 117, 0.5);
+}
+
+& textarea {
+    padding: 12px 16px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 1.17x;
+    letter-spacing: 0.01em;
+}
+}

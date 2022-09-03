@@ -1,0 +1,14 @@
+.modal-icon {
+    position: absolute;
+    left: 16px;
+    bottom: 20px;
+    transform: translateY(+50%);
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+& svg {
+    fill: currentColor;
+}
+}

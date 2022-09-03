@@ -1,0 +1,83 @@
+.company-contacts {
+	list-style-type: none;
+	position: relative;
+	// display: flex;
+	// gap: 50px;
+	// margin-left: auto;
+
+	@media screen and (min-width: 768px) {
+		position: static;
+		margin-left: 96px;
+	}
+
+	&__contact {
+		position: absolute;
+		font-weight: 500;
+		letter-spacing: 0.02em;
+		text-decoration: none;
+		color: $grey-color;
+		display: inline-flex;
+		align-items: center;
+
+		transition-property: color;
+		transition-duration: 250ms;
+		transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	}
+
+	&__contact--tel {
+		top: 0;
+		font-size: 34px;
+		line-height: 1.176;
+		letter-spacing: 0.02em;
+		color: $blue-color;
+
+		@media screen and (min-width: 768px) {
+			position: static;
+			font-size: 14px;
+			line-height: 1.14;
+			color: $grey-color;
+			display: inline-flex;
+			align-items: center;
+
+			transition-property: color;
+			transition-duration: 250ms;
+			transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+		}
+	}
+
+	&__contact--mail {
+		top: 72px;
+		font-size: 24px;
+		line-height: 1.17;
+		color: $grey-color;
+
+		@media screen and (min-width: 768px) {
+			position: static;
+			font-size: 14px;
+			line-height: 1.14;
+			color: $grey-color;
+			display: inline-flex;
+			align-items: center;
+			margin-bottom: 10px;
+
+			transition-property: color;
+			transition-duration: 250ms;
+			transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+		}
+	}
+
+	&__icon {
+		display: none;
+		fill: currentColor;
+		margin-right: 10px;
+
+		@media screen and (min-width: 768px) {
+			display: block;
+		}
+	}
+
+	&__contact:hover,
+	&__contact:focus {
+		color: $blue-color;
+	}
+}

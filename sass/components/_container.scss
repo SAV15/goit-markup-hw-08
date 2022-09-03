@@ -1,0 +1,107 @@
+.container {
+	padding: 0 15px;
+	margin: 0 auto;
+	width: 100%;
+
+	@media screen and (min-width: 480px) {
+		width: 480px;
+	}
+
+	@media screen and (min-width: 768px) {
+		width: 768px;
+	}
+
+	@media screen and (min-width: 1600px) {
+		width: 1600px;
+	}
+
+	&--header {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		@media screen and (min-width: 768px) {
+			justify-content: normal;
+		}
+	}
+
+	&__logo {
+		display: inline-block;
+		text-decoration: none;
+		font-weight: 700;
+		font-size: 24px;
+		line-height: 1.17;
+		letter-spacing: 0.03em;
+		font-family: $secondary-font;
+	}
+
+	&__logo--header-logo {
+		color: black;
+	}
+
+	&--blue-text {
+		color: $blue-color;
+	}
+
+	&--hero {
+		padding: 0;
+	}
+
+	&__h1 {
+		display: inline-block;
+		font-weight: 900;
+		font-size: 26px;
+		line-height: 1.62;
+		text-align: center;
+		letter-spacing: 0.06em;
+		text-transform: uppercase;
+		color: $white;
+		margin: 0 auto 30px;
+
+		@media screen and (min-width: 480px) {
+			width: 360px;
+		}
+	}
+
+	&__button {
+		display: block;
+		margin: 0 auto;
+		font-weight: 700;
+		padding: 13px 32px;
+		border: 0;
+		background: $blue-color;
+		border-radius: 4px;
+		color: $white;
+		font-size: 16px;
+		line-height: 1.88;
+		cursor: pointer;
+		font-family: inherit;
+	}
+
+	&__title {
+		text-align: center;
+		font-weight: 700;
+		font-size: 28px;
+		line-height: 1.17;
+		letter-spacing: 0.03em;
+		margin-bottom: 30px;
+	}
+
+	&__logo--footer-logo {
+		color: $white;
+		display: block;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	&__adress {
+		text-align: center;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 1.7;
+		letter-spacing: 0.03em;
+		color: $white;
+		margin-bottom: 8px;
+	}
+}

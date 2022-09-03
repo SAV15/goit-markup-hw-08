@@ -1,0 +1,15 @@
+.agreement-place {
+    gap: 8.38px;
+    margin-bottom: 30px;
+
+    &__agree {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+        color: #757575;
+    }
+}
