@@ -1,4 +1,9 @@
 .team {
     list-style-type: none;
     justify-content: space-between;
+
+    @media screen and (min-width: 768px) {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }

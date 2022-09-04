@@ -67,7 +67,7 @@
 		display: block;
 		margin: 0 auto;
 		font-weight: 700;
-		padding: 13px 32px;
+		padding: 10px 24px;
 		border: 0;
 		background: $blue-color;
 		border-radius: 4px;
@@ -103,5 +103,15 @@
 		letter-spacing: 0.03em;
 		color: $white;
 		margin-bottom: 8px;
+	}
+
+	&--footer{
+		display: flex;
+	}
+
+	&__contacts{
+
+		@media screen and (min-width:768px) {
+		}
 	}
 }
