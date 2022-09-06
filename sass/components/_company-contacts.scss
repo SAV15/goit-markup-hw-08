@@ -7,7 +7,16 @@
 
 	@media screen and (min-width: 768px) {
 		position: static;
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
 		margin-left: 96px;
+	}
+
+	@media screen and (min-width: 1600px) {
+		margin-left: 315px;
+		flex-direction: row;
+		gap: 30px;
 	}
 
 	&__contact {
@@ -34,7 +43,7 @@
 		@media screen and (min-width: 768px) {
 			position: static;
 			font-size: 12px;
-			line-height: 1.16;
+			line-height: 1.17;
 			color: $grey-color;
 			display: inline-flex;
 			align-items: center;
@@ -42,6 +51,11 @@
 			transition-property: color;
 			transition-duration: 250ms;
 			transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+		}
+
+		@media screen and (min-width: 1600px) {
+			font-size: 14px;
+			line-height: 1.14;
 		}
 	}
 
@@ -54,15 +68,19 @@
 		@media screen and (min-width: 768px) {
 			position: static;
 			font-size: 12px;
-			line-height: 1.16;
+			line-height: 1.17;
 			color: $grey-color;
 			display: inline-flex;
 			align-items: center;
-			margin-bottom: 10px;
 
 			transition-property: color;
 			transition-duration: 250ms;
 			transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+		}
+
+		@media screen and (min-width: 1600px) {
+			font-size: 14px;
+			line-height: 1.14;
 		}
 	}
 
@@ -76,8 +94,62 @@
 		}
 	}
 
+	&__icon--mail {
+		@media screen and (min-width: 768px) {
+			width: 14px;
+			height: 10px;
+		}
+	}
+
+	&__icon--tel {
+		@media screen and (min-width: 768px) {
+			width: 10px;
+			height: 14px;
+		}
+	}
+
 	&__contact:hover,
 	&__contact:focus {
 		color: $blue-color;
+	}
+
+	&__links {
+		position: absolute;
+		top: 164px;
+
+		display: flex;
+		gap: 20px;
+
+		@media screen and (min-width: 768px) {
+			display: none;
+		}
+	}
+
+	// @media screen and(min-width:768px) {
+	// 	display: none;
+	// }
+
+	&__social {
+		position: relative;
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 1.22;
+		letter-spacing: 0.02em;
+		color: $blue-color;
+	}
+
+	&__link::after {
+		content: "";
+		position: absolute;
+		top: 0;
+		right: -10px;
+		width: 1px;
+		height: 100%;
+		background-color: $black-color;
+		opacity: 0.1;
+	}
+
+	&__link--last::after {
+		opacity: 0;
 	}
 }

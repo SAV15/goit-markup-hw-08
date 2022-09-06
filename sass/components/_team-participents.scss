@@ -9,11 +9,25 @@
 		// padding: 25px 190px;
 	}
 
-	&:last-child {
-		margin-bottom: 0px;
+	@media screen and (min-width: 1600px) {
+		width: 270px;
+		margin-bottom: 0;
+		// padding: 25px 190px;
 	}
 
+	&:last-child {
+		margin-bottom: 0px;
 
+		@media screen and (min-width: 768px) {
+			margin-bottom: 30px;
+		}
+	}
+
+	&:nth-last-child(-n + 2) {
+		@media screen and (min-width: 768px) {
+			margin-bottom: 0px;
+		}
+	}
 
 	&__img {
 		width: 100%;
@@ -21,9 +35,13 @@
 		@media screen and (min-width: 480px) {
 			width: 450px;
 		}
-	
+
 		@media screen and (min-width: 768px) {
 			width: 354px;
+		}
+
+		@media screen and (min-width: 1600px) {
+			width: 270px;
 		}
 	}
 }

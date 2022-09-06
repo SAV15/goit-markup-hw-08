@@ -25,8 +25,7 @@
 		<header class="header-page">
 			<div class="container container--header">
 				<a class="container__logo container__logo--header-logo" href="./index.html">
-					<span class="container--blue-text">Web</span>
-					Studio
+					<span class="container--blue-text">Web</span>Studio
 				</a>
 				<button type="button" class="pages__button" data-pages__button>
 					<svg width="40" height="40" aria-label="Меню сайта">
@@ -45,7 +44,7 @@
 					<ul class="company-contacts">
 						<li>
 							<a href="mailto:info@devstudio.com" class="company-contacts__contact company-contacts__contact--mail">
-								<svg class="company-contacts__icon" width="16" height="12">
+								<svg class="company-contacts__icon company-contacts__icon--mail">
 									<use href="./images/svg/icons/symbol-defs.svg#envelope"></use>
 								</svg>
 								info@devstudio.com
@@ -53,17 +52,25 @@
 						</li>
 						<li>
 							<a href="tel:+380961111111" class="company-contacts__contact company-contacts__contact--tel">
-								<svg class="company-contacts__icon" width="10" height="16">
+								<svg class="company-contacts__icon company-contacts__icon--tel" width="10" height="16">
 									<use href="./images/svg/icons/symbol-defs.svg#phone"></use>
 								</svg>
 								+38 096 111 11 11
 							</a>
 						</li>
-						<ul>
-							<li class="company-contacts__social"></li>
-							<li class="company-contacts__social"></li>
-							<li class="company-contacts__social"></li>
-							<li class="company-contacts__social"></li>
+						<ul class="company-contacts__links">
+							<li class="company-contacts__social">
+								<a class="company-contacts__link">Instagram</a>
+							</li>
+							<li class="company-contacts__social">
+								<a class="company-contacts__link">Twitter</a>
+							</li>
+							<li class="company-contacts__social">
+								<a class="company-contacts__link">Facebook</a>
+							</li>
+							<li class="company-contacts__social">
+								<a class="company-contacts__link company-contacts__link--last">Linkedln</a>
+							</li>
 						</ul>
 					</ul>
 				</div>
@@ -431,9 +438,7 @@
 			<div class="container container--footer">
 				<div class="container__contacts">
 					<a class="container__logo container__logo--footer-logo">
-						<span class="container--blue-text">Web</span>
-						Studio
-					</a>
+						<span class="container--blue-text">Web</span>Studio</a>
 					<address class="footer__adress">
 						<p class="container__adress">м. Київ, пр-т Лесі Українки, 26</p>
 						<ul class="contacts-footer">

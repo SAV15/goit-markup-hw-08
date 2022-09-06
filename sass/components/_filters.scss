@@ -6,6 +6,10 @@
 	justify-content: flex-start;
 	margin: 0 auto 40px;
 
+	@media screen and (min-width: 768px) {
+		justify-content: center;
+	}
+
 	& li:not(:last-child) {
 		margin-right: 8px;
 		padding-bottom: 15px;

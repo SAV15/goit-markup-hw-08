@@ -12,7 +12,7 @@
 	}
 
 	@media screen and (min-width: 1600px) {
-		width: 1600px;
+		width: 1200px;
 	}
 
 	&--header {
@@ -33,6 +33,11 @@
 		line-height: 1.17;
 		letter-spacing: 0.03em;
 		font-family: $secondary-font;
+
+		@media screen and (min-width: 1600px) {
+			font-size: 26px;
+			line-height: 1.192;
+		}
 	}
 
 	&__logo--header-logo {
@@ -61,6 +66,12 @@
 		@media screen and (min-width: 480px) {
 			width: 360px;
 		}
+
+		@media screen and (min-width: 1600px) {
+			width: 696px;
+			font-size: 44px;
+			line-height: 1.36;
+		}
 	}
 
 	&__button {
@@ -85,6 +96,13 @@
 		line-height: 1.17;
 		letter-spacing: 0.03em;
 		margin-bottom: 30px;
+
+		@media screen and (min-width: 1600px) {
+			font-size: 36px;
+			line-height: 1.17;
+			margin-bottom: 50px;
+			// padding: 25px 190px;
+		}
 	}
 
 	&__logo--footer-logo {
@@ -105,13 +123,20 @@
 		margin-bottom: 8px;
 	}
 
-	&--footer{
-		display: flex;
+	&--footer {
+		@media screen and (min-width: 768px) {
+			display: flex;
+			flex-wrap: wrap;
+		}
+
+		@media screen and (min-width: 1600px) {
+			align-items: center;
+		}
 	}
 
-	&__contacts{
-
-		@media screen and (min-width:768px) {
+	&__contacts {
+		@media screen and (min-width: 768px) {
+			margin: 0 204px 60px 76px;
 		}
 	}
 }

@@ -13,6 +13,10 @@
 		width: 354px;
 	}
 
+	@media screen and (min-width: 1600px) {
+		width: 270px;
+	}
+
 	&__icon {
 		display: flex;
 		justify-content: center;
@@ -30,6 +34,11 @@
 			width: 354px;
 			// padding: 25px 190px;
 		}
+
+		@media screen and (min-width: 1600px) {
+			width: 270px;
+			// padding: 25px 190px;
+		}
 	}
 
 	&__title {
@@ -40,6 +49,11 @@
 		text-transform: uppercase;
 		color: #212121;
 		text-align: center;
+
+		@media screen and (min-width: 768px) {
+			text-align: start;
+			// padding: 25px 190px;
+		}
 	}
 
 	&__description {

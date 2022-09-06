@@ -1,6 +1,10 @@
 .subscription {
 	text-align: center;
 
+	@media screen and (min-width: 768px) {
+		margin: 0 auto;
+	}
+
 	&__email {
 		width: 450px;
 		height: 50px;
