@@ -110,6 +110,10 @@
 		display: block;
 		margin-bottom: 20px;
 		text-align: center;
+
+		@media screen and (min-width: 1600px) {
+			text-align: start;
+		}
 	}
 
 	&__adress {
@@ -121,6 +125,10 @@
 		letter-spacing: 0.03em;
 		color: $white;
 		margin-bottom: 8px;
+
+		@media screen and (min-width: 1600px) {
+				text-align: start;
+			}
 	}
 
 	&--footer {
@@ -137,6 +145,11 @@
 	&__contacts {
 		@media screen and (min-width: 768px) {
 			margin: 0 204px 60px 76px;
+		}
+
+		@media screen and (min-width: 1600px) {
+			margin: 0;
+			margin-right: 70px;
 		}
 	}
 }

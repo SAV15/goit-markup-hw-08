@@ -1,8 +1,16 @@
 .contacts-footer {
     text-align: center;
 
+    @media screen and (min-width: 1600px) {
+            text-align: start;
+        }
+
 & li:not(:last-child) {
     margin-bottom: 8px;
+
+    // @media screen and (min-width: 1600px) {
+    //     margin-bottom: 9px;
+    // }
 }
 &__link {
     display: inline-block;
