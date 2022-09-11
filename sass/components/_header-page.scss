@@ -38,8 +38,10 @@
 		}
 
 		&--is-open {
+			position: fixed;
 			display: flex;
 			flex-direction: column;
+			justify-content: space-between;
 		}
 
 		@media screen and (min-width: 768px) {
@@ -70,8 +72,8 @@
 		// }
 	}
 
-	// @media screen and (min-width: 768px) {
-	// 	border-bottom: 1px solid rgba(236, 236, 236, 1);
-	// 	height: 80px;
-	// }
+	@media screen and (min-width: 768px) {
+		border-bottom: 1px solid rgba(236, 236, 236, 1);
+		height: 80px;
+	}
 }

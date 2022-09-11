@@ -1,9 +1,10 @@
 .company-contacts {
 	list-style-type: none;
 	position: relative;
-	// display: flex;
-	// gap: 50px;
-	// margin-left: auto;
+
+	@media screen and (max-width: 767px) {
+		height: 186px;
+	}
 
 	@media screen and (min-width: 768px) {
 		position: static;
@@ -119,6 +120,7 @@
 
 		display: flex;
 		gap: 20px;
+		flex-wrap: wrap;
 
 		@media screen and (min-width: 768px) {
 			display: none;

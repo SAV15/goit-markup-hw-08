@@ -8,19 +8,19 @@
 	border-radius: 4px;
 	display: flex;
 	flex-direction: column;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 
 	@media screen and (max-width: 479px) {
 		width: 100%;
-		padding: 25px 15px;
+		// padding: 25px 15px;
 	}
 
 	@media screen and (min-width: 768px) {
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
 	}
 
-	@media screen and (min-width: 1600px) {
+	@media screen and (min-width: 1200px) {
 		width: 528px;
 		height: 581px;
 	}

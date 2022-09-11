@@ -78,6 +78,12 @@
 		display: none;
 	}
 
+	&__button--is-open {
+		position: fixed;
+		top: 10px;
+		right: 15px;
+	}
+
 	&__button--is-open &__icon-close {
 		display: block;
 	}
